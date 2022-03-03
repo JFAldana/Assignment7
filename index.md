@@ -20,8 +20,8 @@ file.close()
 ```
 ## Error Handling
 ### Error handling is done by the the built-in class BaseException. From there all other exception classes are child classes. The coder is also able to create custom child exception classes to try for errores not already built into Python.
-### Again the most helpful link was from Python: https://docs.python.org/3/library/exceptions.html?highlight=exception#BaseException
-### Here is my code using a simple error handling case:
+#### Again the most helpful link was from Python: https://docs.python.org/3/library/exceptions.html?highlight=exception#BaseException
+#### Here is my code using a simple error handling case:
 ```
 try:
     animal = input("Enter an animal: ")
@@ -33,4 +33,4 @@ except Exception as n:
     print("There was a non-specific error!")
     print("Built-In Python error info: ")
     print(n, n.__doc__, type(n), sep='\n')
-    ```
+```
